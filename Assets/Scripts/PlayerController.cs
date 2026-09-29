@@ -17,5 +17,10 @@ public class PlayerController : MonoBehaviour
     {
         moveInput = moveAction.ReadValue<Vector2>();
         transform.Translate(Vector3.right * moveInput.x * Time.deltaTime * speed);
+
+        if (transform.position.x < -10)
+        {
+            transform.position = new Vector3(-10, transform.position.y, transform.position.z);
+        }
     }
 }
