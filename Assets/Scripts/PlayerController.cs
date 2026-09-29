@@ -6,13 +6,14 @@ public class PlayerController : MonoBehaviour
     public InputAction moveAction;
     public Vector2 moveInput;
     public float speed = 10.0f;
+    public float xRange = 10.0f;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         moveAction.Enable();
     }
 
-    public float xRange = 10.0f;
     // Update is called once per frame
     void Update()
     {
