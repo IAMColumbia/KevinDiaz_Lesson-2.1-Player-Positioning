@@ -12,15 +12,21 @@ public class PlayerController : MonoBehaviour
         moveAction.Enable();
     }
 
+    public float xRange = 10.0f;
     // Update is called once per frame
     void Update()
     {
         moveInput = moveAction.ReadValue<Vector2>();
         transform.Translate(Vector3.right * moveInput.x * Time.deltaTime * speed);
 
-        if (transform.position.x < -10)
+        //keep players in bounds
+        if (transform.position.x < -xRange)
         {
-            transform.position = new Vector3(-10, transform.position.y, transform.position.z);
+            transform.position = new Vector3(-xRange, transform.position.y, transform.position.z);
+        }
+        if (transform.position.x > xRange)
+        {
+            transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
         }
     }
 }
