@@ -32,5 +32,10 @@ public class PlayerController : MonoBehaviour
         {
             transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
         }
+
+        if (fireAction.triggered)
+        {
+
+        }
     }
 }
