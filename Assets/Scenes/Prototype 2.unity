@@ -736,6 +736,9 @@ MonoBehaviour:
       m_Flags: 8
     m_Flags: 0
     m_Priority: 0
+  moveInput: {x: 0, y: 0}
+  speed: 10
+  xRange: 10
 --- !u!1001 &1225313556
 PrefabInstance:
   m_ObjectHideFlags: 0
