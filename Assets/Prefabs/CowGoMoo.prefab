@@ -663,6 +663,7 @@ GameObject:
   - component: {fileID: 6620548852856478790}
   - component: {fileID: 7362236871332756791}
   - component: {fileID: 2341582176907674544}
+  - component: {fileID: 6185184668717724835}
   m_Layer: 0
   m_Name: CowGoMoo
   m_TagString: Untagged
@@ -721,6 +722,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveForward
   speed: 40
+--- !u!65 &6185184668717724835
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3256493665986185510}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 16.419357, y: 32.29456, z: 51.052425}
+  m_Center: {x: 0.1689116, y: 15.947458, z: -0.44570762}
 --- !u!1 &3388328500083028372
 GameObject:
   m_ObjectHideFlags: 0

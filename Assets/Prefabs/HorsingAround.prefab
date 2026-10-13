@@ -1202,6 +1202,7 @@ GameObject:
   - component: {fileID: 9070578606852125742}
   - component: {fileID: 5604402019578420854}
   - component: {fileID: 8626897307150922617}
+  - component: {fileID: 5679174567425579079}
   m_Layer: 0
   m_Name: HorsingAround
   m_TagString: Untagged
@@ -1265,6 +1266,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveForward
   speed: 40
+--- !u!65 &5679174567425579079
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5933744153539688065}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 14.494033, y: 39.18898, z: 46.33289}
+  m_Center: {x: 0.22048712, y: 19.094498, z: 4.4980025}
 --- !u!1 &5945249786818628135
 GameObject:
   m_ObjectHideFlags: 0

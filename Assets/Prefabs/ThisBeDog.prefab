@@ -5808,6 +5808,7 @@ GameObject:
   - component: {fileID: 3236241606787485663}
   - component: {fileID: 5878867362655792404}
   - component: {fileID: 7473354332380962229}
+  - component: {fileID: 7056408972206378481}
   m_Layer: 0
   m_Name: ThisBeDog
   m_TagString: Untagged
@@ -5902,6 +5903,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveForward
   speed: 40
+--- !u!65 &7056408972206378481
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7772408451169753599}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.09603459, y: 0.24606271, z: 0.2991766}
+  m_Center: {x: -0.0016999067, y: 0.10575674, z: 0.032435704}
 --- !u!1 &7833287378337103689
 GameObject:
   m_ObjectHideFlags: 0
