@@ -518,6 +518,72 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &724180962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 724180964}
+  - component: {fileID: 724180963}
+  m_Layer: 0
+  m_Name: SpawnManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &724180963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724180962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d183a317ad489449b7d6aaebb430141, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnManager
+  SpawnPrefab:
+  - {fileID: 5933744153539688065, guid: 6956b1f63da523f4a833dda468c11c9b, type: 3}
+  - {fileID: 7772408451169753599, guid: 9c29d5efa214d704680eb24e10614295, type: 3}
+  - {fileID: 3256493665986185510, guid: 63791b5212b93d34983c81edd6b311af, type: 3}
+  spawnAction:
+    m_Name: Spawn
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 826d3b40-a17c-4c98-8121-ded0c6ba2cab
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 4febe232-ffe5-4b10-902e-ff1b84b2d563
+      m_Path: <Keyboard>/s
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Spawn
+      m_Flags: 0
+    m_Flags: 0
+    m_Priority: 0
+--- !u!4 &724180964
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724180962}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.25854, y: 0, z: 26.84736}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &992285705
 GameObject:
   m_ObjectHideFlags: 0
@@ -1051,3 +1117,4 @@ SceneRoots:
   - {fileID: 7873263585347230020}
   - {fileID: 6107632862886540446}
   - {fileID: 4408850574544384798}
+  - {fileID: 724180964}
